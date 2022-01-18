@@ -7,20 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F0DBF2852796ACB300B81178 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DBF2842796ACB300B81178 /* MenuCell.swift */; };
+		F0DBF2962796ACC600B81178 /* RequestWashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DBF2872796ACC500B81178 /* RequestWashVC.swift */; };
+		F0DBF2972796ACC600B81178 /* PhoneNumberVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DBF2882796ACC500B81178 /* PhoneNumberVC.swift */; };
+		F0DBF2982796ACC600B81178 /* CarColorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DBF2892796ACC500B81178 /* CarColorVC.swift */; };
+		F0DBF2992796ACC600B81178 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DBF28A2796ACC500B81178 /* MenuVC.swift */; };
+		F0DBF29A2796ACC600B81178 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F0DBF28D2796ACC600B81178 /* Poppins-Medium.ttf */; };
+		F0DBF29B2796ACC600B81178 /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F0DBF28E2796ACC600B81178 /* Poppins-Black.ttf */; };
+		F0DBF29C2796ACC600B81178 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F0DBF28F2796ACC600B81178 /* Poppins-SemiBold.ttf */; };
+		F0DBF29D2796ACC600B81178 /* SFPRODISPLAYREGULAR.OTF in Resources */ = {isa = PBXBuildFile; fileRef = F0DBF2912796ACC600B81178 /* SFPRODISPLAYREGULAR.OTF */; };
+		F0DBF29E2796ACC600B81178 /* SFPRODISPLAYBOLD.OTF in Resources */ = {isa = PBXBuildFile; fileRef = F0DBF2922796ACC600B81178 /* SFPRODISPLAYBOLD.OTF */; };
+		F0DBF29F2796ACC600B81178 /* SFPRODISPLAYMEDIUM.OTF in Resources */ = {isa = PBXBuildFile; fileRef = F0DBF2932796ACC600B81178 /* SFPRODISPLAYMEDIUM.OTF */; };
+		F0DBF2A02796ACC600B81178 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DBF2952796ACC600B81178 /* CheckBox.swift */; };
+		F0DBF2A22796C85300B81178 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0DBF2A12796C85300B81178 /* Main.storyboard */; };
+		F70C969E9BC57804277F86BC /* Pods_Sparxkle_Dev.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09CAB2269278D2AAEA63B515 /* Pods_Sparxkle_Dev.framework */; };
 		FB719A98279677630075449E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB719A97279677630075449E /* AppDelegate.swift */; };
 		FB719A9A279677630075449E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB719A99279677630075449E /* SceneDelegate.swift */; };
 		FB719A9C279677630075449E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB719A9B279677630075449E /* ViewController.swift */; };
-		FB719A9F279677630075449E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB719A9D279677630075449E /* Main.storyboard */; };
+		FB719A9F279677630075449E /* Main1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB719A9D279677630075449E /* Main1.storyboard */; };
 		FB719AA1279677650075449E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB719AA0279677650075449E /* Assets.xcassets */; };
 		FB719AA4279677650075449E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB719AA2279677650075449E /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		09CAB2269278D2AAEA63B515 /* Pods_Sparxkle_Dev.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sparxkle_Dev.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33AF558E210D47448A99559E /* Pods-Sparxkle Dev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sparxkle Dev.release.xcconfig"; path = "Target Support Files/Pods-Sparxkle Dev/Pods-Sparxkle Dev.release.xcconfig"; sourceTree = "<group>"; };
+		C3F6214E434B44A5AFE691E6 /* Pods-Sparxkle Dev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sparxkle Dev.debug.xcconfig"; path = "Target Support Files/Pods-Sparxkle Dev/Pods-Sparxkle Dev.debug.xcconfig"; sourceTree = "<group>"; };
+		F0DBF2842796ACB300B81178 /* MenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		F0DBF2872796ACC500B81178 /* RequestWashVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestWashVC.swift; sourceTree = "<group>"; };
+		F0DBF2882796ACC500B81178 /* PhoneNumberVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneNumberVC.swift; sourceTree = "<group>"; };
+		F0DBF2892796ACC500B81178 /* CarColorVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarColorVC.swift; sourceTree = "<group>"; };
+		F0DBF28A2796ACC500B81178 /* MenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
+		F0DBF28D2796ACC600B81178 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		F0DBF28E2796ACC600B81178 /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
+		F0DBF28F2796ACC600B81178 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		F0DBF2912796ACC600B81178 /* SFPRODISPLAYREGULAR.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYREGULAR.OTF; sourceTree = "<group>"; };
+		F0DBF2922796ACC600B81178 /* SFPRODISPLAYBOLD.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYBOLD.OTF; sourceTree = "<group>"; };
+		F0DBF2932796ACC600B81178 /* SFPRODISPLAYMEDIUM.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYMEDIUM.OTF; sourceTree = "<group>"; };
+		F0DBF2952796ACC600B81178 /* CheckBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
+		F0DBF2A12796C85300B81178 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		FB719A94279677630075449E /* Sparxkle Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sparxkle Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB719A97279677630075449E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB719A99279677630075449E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FB719A9B279677630075449E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FB719A9E279677630075449E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB719A9E279677630075449E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main1.storyboard; sourceTree = "<group>"; };
 		FB719AA0279677650075449E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB719AA3279677650075449E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB719AA5279677650075449E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -31,17 +61,102 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F70C969E9BC57804277F86BC /* Pods_Sparxkle_Dev.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A6256BD9DA2E15AA13E5F15 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C3F6214E434B44A5AFE691E6 /* Pods-Sparxkle Dev.debug.xcconfig */,
+				33AF558E210D47448A99559E /* Pods-Sparxkle Dev.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7E35C1FF4AAE52661C67B488 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09CAB2269278D2AAEA63B515 /* Pods_Sparxkle_Dev.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0DBF2822796ACB300B81178 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F0DBF2832796ACB300B81178 /* Cells */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F0DBF2832796ACB300B81178 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				F0DBF2842796ACB300B81178 /* MenuCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		F0DBF2862796ACC500B81178 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F0DBF2872796ACC500B81178 /* RequestWashVC.swift */,
+				F0DBF2882796ACC500B81178 /* PhoneNumberVC.swift */,
+				F0DBF2892796ACC500B81178 /* CarColorVC.swift */,
+				F0DBF28A2796ACC500B81178 /* MenuVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F0DBF28B2796ACC600B81178 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F0DBF28C2796ACC600B81178 /* Popins */,
+				F0DBF2902796ACC600B81178 /* SF Pro Display */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		F0DBF28C2796ACC600B81178 /* Popins */ = {
+			isa = PBXGroup;
+			children = (
+				F0DBF28D2796ACC600B81178 /* Poppins-Medium.ttf */,
+				F0DBF28E2796ACC600B81178 /* Poppins-Black.ttf */,
+				F0DBF28F2796ACC600B81178 /* Poppins-SemiBold.ttf */,
+			);
+			path = Popins;
+			sourceTree = "<group>";
+		};
+		F0DBF2902796ACC600B81178 /* SF Pro Display */ = {
+			isa = PBXGroup;
+			children = (
+				F0DBF2912796ACC600B81178 /* SFPRODISPLAYREGULAR.OTF */,
+				F0DBF2922796ACC600B81178 /* SFPRODISPLAYBOLD.OTF */,
+				F0DBF2932796ACC600B81178 /* SFPRODISPLAYMEDIUM.OTF */,
+			);
+			path = "SF Pro Display";
+			sourceTree = "<group>";
+		};
+		F0DBF2942796ACC600B81178 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F0DBF2952796ACC600B81178 /* CheckBox.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		FB719A8B279677630075449E = {
 			isa = PBXGroup;
 			children = (
 				FB719A96279677630075449E /* Sparxkle Dev */,
 				FB719A95279677630075449E /* Products */,
+				5A6256BD9DA2E15AA13E5F15 /* Pods */,
+				7E35C1FF4AAE52661C67B488 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,10 +171,15 @@
 		FB719A96279677630075449E /* Sparxkle Dev */ = {
 			isa = PBXGroup;
 			children = (
+				F0DBF2822796ACB300B81178 /* View */,
+				F0DBF2862796ACC500B81178 /* Controllers */,
+				F0DBF28B2796ACC600B81178 /* Fonts */,
+				F0DBF2942796ACC600B81178 /* Model */,
 				FB719A97279677630075449E /* AppDelegate.swift */,
 				FB719A99279677630075449E /* SceneDelegate.swift */,
 				FB719A9B279677630075449E /* ViewController.swift */,
-				FB719A9D279677630075449E /* Main.storyboard */,
+				F0DBF2A12796C85300B81178 /* Main.storyboard */,
+				FB719A9D279677630075449E /* Main1.storyboard */,
 				FB719AA0279677650075449E /* Assets.xcassets */,
 				FB719AA2279677650075449E /* LaunchScreen.storyboard */,
 				FB719AA5279677650075449E /* Info.plist */,
@@ -74,9 +194,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB719AA8279677650075449E /* Build configuration list for PBXNativeTarget "Sparxkle Dev" */;
 			buildPhases = (
+				B8D76BA9E93684EA4B86B6DA /* [CP] Check Pods Manifest.lock */,
 				FB719A90279677630075449E /* Sources */,
 				FB719A91279677630075449E /* Frameworks */,
 				FB719A92279677630075449E /* Resources */,
+				3BBA3FBC92AA5BE065652389 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,34 +247,89 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0DBF29F2796ACC600B81178 /* SFPRODISPLAYMEDIUM.OTF in Resources */,
+				F0DBF2A22796C85300B81178 /* Main.storyboard in Resources */,
 				FB719AA4279677650075449E /* LaunchScreen.storyboard in Resources */,
+				F0DBF29A2796ACC600B81178 /* Poppins-Medium.ttf in Resources */,
 				FB719AA1279677650075449E /* Assets.xcassets in Resources */,
-				FB719A9F279677630075449E /* Main.storyboard in Resources */,
+				F0DBF29D2796ACC600B81178 /* SFPRODISPLAYREGULAR.OTF in Resources */,
+				F0DBF29E2796ACC600B81178 /* SFPRODISPLAYBOLD.OTF in Resources */,
+				F0DBF29C2796ACC600B81178 /* Poppins-SemiBold.ttf in Resources */,
+				FB719A9F279677630075449E /* Main1.storyboard in Resources */,
+				F0DBF29B2796ACC600B81178 /* Poppins-Black.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3BBA3FBC92AA5BE065652389 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sparxkle Dev/Pods-Sparxkle Dev-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sparxkle Dev/Pods-Sparxkle Dev-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sparxkle Dev/Pods-Sparxkle Dev-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8D76BA9E93684EA4B86B6DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sparxkle Dev-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FB719A90279677630075449E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0DBF2962796ACC600B81178 /* RequestWashVC.swift in Sources */,
 				FB719A9C279677630075449E /* ViewController.swift in Sources */,
+				F0DBF2A02796ACC600B81178 /* CheckBox.swift in Sources */,
 				FB719A98279677630075449E /* AppDelegate.swift in Sources */,
+				F0DBF2852796ACB300B81178 /* MenuCell.swift in Sources */,
+				F0DBF2972796ACC600B81178 /* PhoneNumberVC.swift in Sources */,
+				F0DBF2992796ACC600B81178 /* MenuVC.swift in Sources */,
 				FB719A9A279677630075449E /* SceneDelegate.swift in Sources */,
+				F0DBF2982796ACC600B81178 /* CarColorVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FB719A9D279677630075449E /* Main.storyboard */ = {
+		FB719A9D279677630075449E /* Main1.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				FB719A9E279677630075449E /* Base */,
 			);
-			name = Main.storyboard;
+			name = Main1.storyboard;
 			sourceTree = "<group>";
 		};
 		FB719AA2279677650075449E /* LaunchScreen.storyboard */ = {
@@ -284,6 +461,7 @@
 		};
 		FB719AA9279677650075449E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3F6214E434B44A5AFE691E6 /* Pods-Sparxkle Dev.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +490,7 @@
 		};
 		FB719AAA279677650075449E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33AF558E210D47448A99559E /* Pods-Sparxkle Dev.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
