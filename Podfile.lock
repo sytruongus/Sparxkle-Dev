@@ -1,20 +1,32 @@
 PODS:
   - Cosmos (23.0.0)
   - DLRadioButton (1.4.12)
+  - GradientCircularProgress (3.13.0)
 
 DEPENDENCIES:
   - Cosmos (~> 23.0)
   - DLRadioButton (~> 1.4)
+  - GradientCircularProgress (from `https://github.com/keygx/GradientCircularProgress`)
 
 SPEC REPOS:
   trunk:
     - Cosmos
     - DLRadioButton
 
+EXTERNAL SOURCES:
+  GradientCircularProgress:
+    :git: https://github.com/keygx/GradientCircularProgress
+
+CHECKOUT OPTIONS:
+  GradientCircularProgress:
+    :commit: 9e2dc60d335ee6eb3677bfd9f965f0ade3607f4c
+    :git: https://github.com/keygx/GradientCircularProgress
+
 SPEC CHECKSUMS:
   Cosmos: b5c6a9a637e28a061b54c8f8b1d8529d7d4db73f
   DLRadioButton: d7c4e225ed0e8013cef7be61455230c7557ad7c1
+  GradientCircularProgress: f5a04b862adc1fbafbd21c0ff450ed7d74d1926e
 
-PODFILE CHECKSUM: 28692033c8c881b474c2f735a5915b64e0fbd197
+PODFILE CHECKSUM: 66741f80c92389163f85f5bc928f532146bff3b1
 
 COCOAPODS: 1.11.2

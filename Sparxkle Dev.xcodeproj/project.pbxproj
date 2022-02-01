@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F0B52B6027A2FD9900CF3F5E /* WashStartTimeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B52B5F27A2FD9900CF3F5E /* WashStartTimeVC.swift */; };
+		F0B52B6327A323CB00CF3F5E /* CircularProgressView in Frameworks */ = {isa = PBXBuildFile; productRef = F0B52B6227A323CB00CF3F5E /* CircularProgressView */; };
+		F0B52B6527A9925500CF3F5E /* DuringWashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B52B6427A9925500CF3F5E /* DuringWashVC.swift */; };
 		F0DBF2852796ACB300B81178 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DBF2842796ACB300B81178 /* MenuCell.swift */; };
 		F0DBF2962796ACC600B81178 /* RequestWashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DBF2872796ACC500B81178 /* RequestWashVC.swift */; };
 		F0DBF2972796ACC600B81178 /* PhoneNumberVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DBF2882796ACC500B81178 /* PhoneNumberVC.swift */; };
@@ -33,6 +36,8 @@
 		09CAB2269278D2AAEA63B515 /* Pods_Sparxkle_Dev.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sparxkle_Dev.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		33AF558E210D47448A99559E /* Pods-Sparxkle Dev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sparxkle Dev.release.xcconfig"; path = "Target Support Files/Pods-Sparxkle Dev/Pods-Sparxkle Dev.release.xcconfig"; sourceTree = "<group>"; };
 		C3F6214E434B44A5AFE691E6 /* Pods-Sparxkle Dev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sparxkle Dev.debug.xcconfig"; path = "Target Support Files/Pods-Sparxkle Dev/Pods-Sparxkle Dev.debug.xcconfig"; sourceTree = "<group>"; };
+		F0B52B5F27A2FD9900CF3F5E /* WashStartTimeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WashStartTimeVC.swift; sourceTree = "<group>"; };
+		F0B52B6427A9925500CF3F5E /* DuringWashVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuringWashVC.swift; sourceTree = "<group>"; };
 		F0DBF2842796ACB300B81178 /* MenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
 		F0DBF2872796ACC500B81178 /* RequestWashVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestWashVC.swift; sourceTree = "<group>"; };
 		F0DBF2882796ACC500B81178 /* PhoneNumberVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneNumberVC.swift; sourceTree = "<group>"; };
@@ -62,6 +67,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F70C969E9BC57804277F86BC /* Pods_Sparxkle_Dev.framework in Frameworks */,
+				F0B52B6327A323CB00CF3F5E /* CircularProgressView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,7 +80,6 @@
 				C3F6214E434B44A5AFE691E6 /* Pods-Sparxkle Dev.debug.xcconfig */,
 				33AF558E210D47448A99559E /* Pods-Sparxkle Dev.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -109,6 +114,8 @@
 				F0DBF2882796ACC500B81178 /* PhoneNumberVC.swift */,
 				F0DBF2892796ACC500B81178 /* CarColorVC.swift */,
 				F0DBF28A2796ACC500B81178 /* MenuVC.swift */,
+				F0B52B5F27A2FD9900CF3F5E /* WashStartTimeVC.swift */,
+				F0B52B6427A9925500CF3F5E /* DuringWashVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -205,6 +212,9 @@
 			dependencies = (
 			);
 			name = "Sparxkle Dev";
+			packageProductDependencies = (
+				F0B52B6227A323CB00CF3F5E /* CircularProgressView */,
+			);
 			productName = "Sparxkle Dev";
 			productReference = FB719A94279677630075449E /* Sparxkle Dev.app */;
 			productType = "com.apple.product-type.application";
@@ -233,6 +243,9 @@
 				Base,
 			);
 			mainGroup = FB719A8B279677630075449E;
+			packageReferences = (
+				F0B52B6127A323CB00CF3F5E /* XCRemoteSwiftPackageReference "CircularProgressView" */,
+			);
 			productRefGroup = FB719A95279677630075449E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -310,12 +323,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0DBF2962796ACC600B81178 /* RequestWashVC.swift in Sources */,
+				F0B52B6527A9925500CF3F5E /* DuringWashVC.swift in Sources */,
 				FB719A9C279677630075449E /* ViewController.swift in Sources */,
 				F0DBF2A02796ACC600B81178 /* CheckBox.swift in Sources */,
 				FB719A98279677630075449E /* AppDelegate.swift in Sources */,
 				F0DBF2852796ACB300B81178 /* MenuCell.swift in Sources */,
 				F0DBF2972796ACC600B81178 /* PhoneNumberVC.swift in Sources */,
 				F0DBF2992796ACC600B81178 /* MenuVC.swift in Sources */,
+				F0B52B6027A2FD9900CF3F5E /* WashStartTimeVC.swift in Sources */,
 				FB719A9A279677630075449E /* SceneDelegate.swift in Sources */,
 				F0DBF2982796ACC600B81178 /* CarColorVC.swift in Sources */,
 			);
@@ -539,6 +554,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F0B52B6127A323CB00CF3F5E /* XCRemoteSwiftPackageReference "CircularProgressView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/bdolewski/CircularProgressView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F0B52B6227A323CB00CF3F5E /* CircularProgressView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F0B52B6127A323CB00CF3F5E /* XCRemoteSwiftPackageReference "CircularProgressView" */;
+			productName = CircularProgressView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FB719A8C279677630075449E /* Project object */;
 }

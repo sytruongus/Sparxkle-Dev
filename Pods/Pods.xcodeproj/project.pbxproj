@@ -7,113 +7,175 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02B3BFE6001FCEA77907CF2783F4E92F /* Pods-Sparxkle Dev-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41490C53CB29E1C0383E4F8EF02E3649 /* Pods-Sparxkle Dev-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0D9E56AC9F52A1669E27306A416410BE /* Pods-Sparxkle Dev-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9BE6CBADC9B40EB2F669638574BE40 /* Pods-Sparxkle Dev-dummy.m */; };
-		1B2A3E1D8488055BCB009636F113B7C9 /* DLRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A61FF8F3EF5B3788C59909A05AC9EE /* DLRadioButton.m */; };
-		1C6156B7023F7F69398B4119A0AA492B /* CosmosText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C26AA1B0977D8F9A5F1DFA3CB6A2B12 /* CosmosText.swift */; };
+		01BA716616A999B1E52DFB6D575C8C73 /* ProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C398EEC9024D73A086F22E8765DF1B31 /* ProgressViewController.swift */; };
+		1B2A3E1D8488055BCB009636F113B7C9 /* DLRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 43453B47D4871E74DA2AACE11485067A /* DLRadioButton.m */; };
+		1C6156B7023F7F69398B4119A0AA492B /* CosmosText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01732F4053728659F695BAE314C4235F /* CosmosText.swift */; };
+		1D2235175D2A975A3C77EEB7D53E7B22 /* WindowBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FC9B1AEDA8B655ECFC728EF23193AF /* WindowBuilder.swift */; };
+		1E3CCD8ED7AA1DD230A512B69366BDD9 /* ColorUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9823557BFF3B4093C83E4A30F00B8A34 /* ColorUtil.swift */; };
+		1EF459A4657DF666DEB46B773A56129C /* GradientArcWithClearColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA6480E415E1C04789EE807FA9C02EC /* GradientArcWithClearColorView.swift */; };
 		209D9DD6A82F26B8032A43B060B5D164 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		2FCFA7D464D486EC1E486FFF2C21B4ED /* Cosmos-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7364FBA9E7509A4780127E83BFBE9FB7 /* Cosmos-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3E410558A06008A95E19C2FE1D5E014E /* CosmosRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = B768194004FD48A82A845D577C7A7C46 /* CosmosRating.swift */; };
-		449B7D4D4BD118C480786A347A377054 /* CosmosTouchTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9756D2EC94C112B73A74017ABE9C01FC /* CosmosTouchTarget.swift */; };
-		4D8675E7F1C6254904557B7FB84E1C51 /* CosmosSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2113A278F6482F53441A1D0A7B69352E /* CosmosSettings.swift */; };
-		5E87677262463376144E8B5F6916FCCB /* StarFillMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1587245B44219D4C71AC47B036EBC543 /* StarFillMode.swift */; };
-		61773DD4962BFA6D7E38DD8A9D998A8A /* CosmosDefaultSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A518252131D291D7A81470589E4F297F /* CosmosDefaultSettings.swift */; };
-		67318BB3E280E0D8FB9161E5557B71E3 /* Cosmos-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 916CE8CDCF8BC863059444F6E8D35EAB /* Cosmos-dummy.m */; };
-		772B7FA4384C442360975E95D12383BA /* CosmosAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8223324B3C9C4C1C3F58DFABDC3FBEA /* CosmosAccessibility.swift */; };
-		78953B88386EB2E7A3B1878537851318 /* DLRadioButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 58B00F43CD6CDB7367DB61D00E60B61A /* DLRadioButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7AA4F48458A149B12BCF7E8EB147E25C /* CosmosTouch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78BC14681010DADD112769010EADA5D /* CosmosTouch.swift */; };
-		7E298ECE9B23835D17446526E27D2D67 /* StarLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B3E0452C4407CE1D8B8A0D0FC31AD0 /* StarLayer.swift */; };
-		8322D938B4C21C24E70FBA1B95797AC9 /* CosmosSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3076553EE8ADC8F49F337EF87340E28 /* CosmosSize.swift */; };
-		8DC27195BA1C54FC949AD1AB3D66B226 /* DLRadioButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D208912400244871F920889AB2428082 /* DLRadioButton-dummy.m */; };
-		9755F83E9DE9BA2CC07496C16AF80B42 /* RightToLeft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1C119207D654FF176BD2966C4BC037 /* RightToLeft.swift */; };
-		99DB653A1F70EAEC3490B69E4AC9011F /* CosmosLayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A300F6B40F8E4723F3858278623B0184 /* CosmosLayerHelper.swift */; };
+		2A304363A0C51A867D7CCDA8755D26C8 /* ArcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553EAA81ABCFA11F3A8435B1D04641C9 /* ArcView.swift */; };
+		2E3D67EF4390C90419AF9F14190532B0 /* GradientCircularProgress-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6FEDCE6671936E3FEBF2D526224434F /* GradientCircularProgress-dummy.m */; };
+		2FCFA7D464D486EC1E486FFF2C21B4ED /* Cosmos-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB58C408A405AEF44AF92CA0FF36F68A /* Cosmos-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		313734138B38FE724E916F77536988B2 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C9B169225A6187D5FDD3D54C3B1B07 /* ProgressView.swift */; };
+		3B152CC8B3E2DA652BD8D1455FB56643 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3B46913E94D7EB076632F3D77CD208DC /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9598142E57CFEF3F8000322C12DD05A1 /* CircularProgressView.swift */; };
+		3E410558A06008A95E19C2FE1D5E014E /* CosmosRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DBA81450F8C5705C630A8EF56AD9F39 /* CosmosRating.swift */; };
+		3EA3F4E87D1AED0CDEDE8F5B70E254A6 /* GradientArcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F55F28BA9EFFA8DCC02C37EA4891EF /* GradientArcView.swift */; };
+		449B7D4D4BD118C480786A347A377054 /* CosmosTouchTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47524C2FC9261262DB0CA8E3E8404433 /* CosmosTouchTarget.swift */; };
+		4D8675E7F1C6254904557B7FB84E1C51 /* CosmosSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB24D5AC37CE6218BE4BEEC8AEF7D4E2 /* CosmosSettings.swift */; };
+		58364F1DDA5C1E7232BA52D0CD059F16 /* Pods-Sparxkle Dev-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9BE6CBADC9B40EB2F669638574BE40 /* Pods-Sparxkle Dev-dummy.m */; };
+		5D3C6F08D62AD9AAF171BBFED8CCB786 /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2BBF105BC1B2DAB88F92CAC31D14CD /* Property.swift */; };
+		5E87677262463376144E8B5F6916FCCB /* StarFillMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF75CB03D25DEB36855ADADF10DE46FA /* StarFillMode.swift */; };
+		61773DD4962BFA6D7E38DD8A9D998A8A /* CosmosDefaultSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276C38430106C1F8C43AC14815F561AA /* CosmosDefaultSettings.swift */; };
+		67318BB3E280E0D8FB9161E5557B71E3 /* Cosmos-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 659284651B04AB68E87ECB7D9C503783 /* Cosmos-dummy.m */; };
+		6F9CD0EB474CB886F990C23E48F777A2 /* GradientCircularProgress.h in Headers */ = {isa = PBXBuildFile; fileRef = EE2A56AF8CCA98326A2B3E972AADD008 /* GradientCircularProgress.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71F7A055D4E0E948DCFFCBAA639B0BC0 /* GradientCircularProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A69C43F9F7F6B85E3D768E9142C346A /* GradientCircularProgress.swift */; };
+		741583F8FE2F5ACB0E2A8723BB57FEFC /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5621874F5BA5565C9C2B44C2235C8A1E /* Style.swift */; };
+		772B7FA4384C442360975E95D12383BA /* CosmosAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0173580C6A735ECE303D15CAEA8A57 /* CosmosAccessibility.swift */; };
+		78953B88386EB2E7A3B1878537851318 /* DLRadioButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 13B93CD486511FBC562C7F028EF0472F /* DLRadioButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AA4F48458A149B12BCF7E8EB147E25C /* CosmosTouch.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CADBE98F2AD8009D90770619D30F36 /* CosmosTouch.swift */; };
+		7E298ECE9B23835D17446526E27D2D67 /* StarLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C045AA495F13603655E0134DE5107B72 /* StarLayer.swift */; };
+		8322D938B4C21C24E70FBA1B95797AC9 /* CosmosSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338D8B8DC1B110FC6DAC755381C54244 /* CosmosSize.swift */; };
+		89A17E274E9DBAEB446BDF83F75ADF80 /* OrangeClearStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090E9E27C12D037F15854483E8F763E1 /* OrangeClearStyle.swift */; };
+		89C247F60E83565F7F5FA75DCC64E8A2 /* GradientCircularProgress-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EEFCDC7AD374FE272BB51F7BE661A298 /* GradientCircularProgress-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B73696AB199FEBA5F3D206D7C675569 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8DC27195BA1C54FC949AD1AB3D66B226 /* DLRadioButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C0466DBD38C05EE35351AF2CBBE53E20 /* DLRadioButton-dummy.m */; };
+		9755F83E9DE9BA2CC07496C16AF80B42 /* RightToLeft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779E5E9E26D8E7A1BCDE1A100D1DACAF /* RightToLeft.swift */; };
+		99DB653A1F70EAEC3490B69E4AC9011F /* CosmosLayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C6900BC7CA0229EFBA9C8478721AE5 /* CosmosLayerHelper.swift */; };
 		A14CA14D8C9EFD9612EF710A1547DF93 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		ABFB9BF862F602531FE8131A350542B0 /* CosmosLayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7538D3606A8E8C7DA1D8A33BCBADCEE /* CosmosLayers.swift */; };
-		BF7F8D8B1ED9D754F8221A0FC523A612 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		CB4D7FEF62D7943C6E236467F3C516C1 /* CosmosLocalizedRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B111B7115E50B47355E0B09EC38A2CC /* CosmosLocalizedRating.swift */; };
-		EC1899EF909D17F47C5C0C2064BD2533 /* CosmosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627091DD721B0A10645FD83448DE3DD0 /* CosmosView.swift */; };
-		F3579B030CCB270667A0390E7D9CF30A /* DLRadioButton.h in Headers */ = {isa = PBXBuildFile; fileRef = EAB893CE7451C10335DFC47C2D51A707 /* DLRadioButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABFB9BF862F602531FE8131A350542B0 /* CosmosLayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E313A6E661444D2A24282F3C5F62B0D /* CosmosLayers.swift */; };
+		AE94CCCB370944E323F6DF2B42225EEB /* Pods-Sparxkle Dev-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41490C53CB29E1C0383E4F8EF02E3649 /* Pods-Sparxkle Dev-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBC9B7F139164A6A32851DF5EB164C69 /* GreenLightStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C19C6AC6D4343EF1031113F9E52D0F /* GreenLightStyle.swift */; };
+		BDDEBA8CD3EAE7906E1CC3F7B8863F72 /* BlueIndicatorStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900A3E20C9ECA6127F1BE00055428765 /* BlueIndicatorStyle.swift */; };
+		CB4D7FEF62D7943C6E236467F3C516C1 /* CosmosLocalizedRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = F881CA8C1AE59C0FABE03447E533D408 /* CosmosLocalizedRating.swift */; };
+		CCB2748298A52B149A1F06F4200C4EB8 /* ProgressAtRatioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C582650467F34E098930524C982C30 /* ProgressAtRatioView.swift */; };
+		D225FA9B7ED55298826CCEBF6FCF39D3 /* BlueDarkStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACD12A8326201E6A5AAD64FC4CF2EA2 /* BlueDarkStyle.swift */; };
+		EC1899EF909D17F47C5C0C2064BD2533 /* CosmosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2C864292503A171A532A1709669A80 /* CosmosView.swift */; };
+		F3579B030CCB270667A0390E7D9CF30A /* DLRadioButton.h in Headers */ = {isa = PBXBuildFile; fileRef = CADCFF3A3B9C732D47C84FAF874035B0 /* DLRadioButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F79146C9737A392D44FCC7C12FDD0AF1 /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8467F3DC4C0FAB398D60E1EC3A3DC403 /* Background.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		14185FB9C7248091C72C4DB478B50997 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 00F31BD5217A20974B5E9AAC6256D98E;
-			remoteInfo = Cosmos;
-		};
-		2A103FC7E1B540979CD9F5BA85222338 /* PBXContainerItemProxy */ = {
+		4A4997C58E1D087011B843AB74FABFD2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = BED8F38B6D4A3AD6DFF85D18F9F09435;
 			remoteInfo = DLRadioButton;
 		};
+		6D3C4A537615B9E945D132F5971AF3AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E22002AAC42C1574F92E75D3B37DD24;
+			remoteInfo = GradientCircularProgress;
+		};
+		8DB685379AEDFDABB8924273C3B1CC17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00F31BD5217A20974B5E9AAC6256D98E;
+			remoteInfo = Cosmos;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		020C7B7AD96E0D156931D50E6C46E162 /* Cosmos.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Cosmos.modulemap; sourceTree = "<group>"; };
-		05C4280976BF93DA8B36818DE2E2A5E0 /* Cosmos */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Cosmos; path = Cosmos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		09B3E0452C4407CE1D8B8A0D0FC31AD0 /* StarLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StarLayer.swift; path = Cosmos/StarLayer.swift; sourceTree = "<group>"; };
+		01732F4053728659F695BAE314C4235F /* CosmosText.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosText.swift; path = Cosmos/CosmosText.swift; sourceTree = "<group>"; };
+		05C4280976BF93DA8B36818DE2E2A5E0 /* Cosmos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Cosmos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		06F55F28BA9EFFA8DCC02C37EA4891EF /* GradientArcView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GradientArcView.swift; path = source/Progress/Elements/GradientArcView.swift; sourceTree = "<group>"; };
+		090E9E27C12D037F15854483E8F763E1 /* OrangeClearStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OrangeClearStyle.swift; path = source/Styles/OrangeClearStyle.swift; sourceTree = "<group>"; };
 		0A9BE6CBADC9B40EB2F669638574BE40 /* Pods-Sparxkle Dev-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Sparxkle Dev-dummy.m"; sourceTree = "<group>"; };
-		1587245B44219D4C71AC47B036EBC543 /* StarFillMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StarFillMode.swift; path = Cosmos/StarFillMode.swift; sourceTree = "<group>"; };
-		2113A278F6482F53441A1D0A7B69352E /* CosmosSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosSettings.swift; path = Cosmos/CosmosSettings.swift; sourceTree = "<group>"; };
-		2B111B7115E50B47355E0B09EC38A2CC /* CosmosLocalizedRating.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosLocalizedRating.swift; path = Cosmos/CosmosLocalizedRating.swift; sourceTree = "<group>"; };
+		13B93CD486511FBC562C7F028EF0472F /* DLRadioButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DLRadioButton-umbrella.h"; sourceTree = "<group>"; };
+		17DCB98865F92657F04FFB784CB2745B /* GradientCircularProgress.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GradientCircularProgress.debug.xcconfig; sourceTree = "<group>"; };
+		2409904AB433117FD05C89489048CE84 /* DLRadioButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DLRadioButton.debug.xcconfig; sourceTree = "<group>"; };
+		276C38430106C1F8C43AC14815F561AA /* CosmosDefaultSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosDefaultSettings.swift; path = Cosmos/CosmosDefaultSettings.swift; sourceTree = "<group>"; };
+		2CA6480E415E1C04789EE807FA9C02EC /* GradientArcWithClearColorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GradientArcWithClearColorView.swift; path = source/Progress/Elements/GradientArcWithClearColorView.swift; sourceTree = "<group>"; };
+		2E313A6E661444D2A24282F3C5F62B0D /* CosmosLayers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosLayers.swift; path = Cosmos/CosmosLayers.swift; sourceTree = "<group>"; };
 		2EBC8033E6907D0E66D60CA547B9B8E7 /* Pods-Sparxkle Dev-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Sparxkle Dev-acknowledgements.plist"; sourceTree = "<group>"; };
 		3129827188C8A4BB98793025D1F8FF37 /* Pods-Sparxkle Dev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sparxkle Dev.debug.xcconfig"; sourceTree = "<group>"; };
+		338D8B8DC1B110FC6DAC755381C54244 /* CosmosSize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosSize.swift; path = Cosmos/CosmosSize.swift; sourceTree = "<group>"; };
+		33DA3FBD6B58DF4C25C31130F47E5D62 /* Cosmos-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cosmos-prefix.pch"; sourceTree = "<group>"; };
 		3925AB303C47B78E59860E705C7E9FAA /* Pods-Sparxkle Dev.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Sparxkle Dev.modulemap"; sourceTree = "<group>"; };
-		3E26BA03994713FBEB9C3406695782F1 /* DLRadioButton */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DLRadioButton; path = DLRadioButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F35A4B0AB5DA0D462930050470B35DB /* Cosmos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Cosmos.debug.xcconfig; sourceTree = "<group>"; };
+		3E26BA03994713FBEB9C3406695782F1 /* DLRadioButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DLRadioButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FD952546DDA75B0047B1399D4B5EC7C /* Cosmos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Cosmos.debug.xcconfig; sourceTree = "<group>"; };
 		41490C53CB29E1C0383E4F8EF02E3649 /* Pods-Sparxkle Dev-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Sparxkle Dev-umbrella.h"; sourceTree = "<group>"; };
-		4C26AA1B0977D8F9A5F1DFA3CB6A2B12 /* CosmosText.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosText.swift; path = Cosmos/CosmosText.swift; sourceTree = "<group>"; };
-		4EA25FBDDAA3FD8BA1508ECC1923DD87 /* DLRadioButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DLRadioButton-prefix.pch"; sourceTree = "<group>"; };
-		58B00F43CD6CDB7367DB61D00E60B61A /* DLRadioButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DLRadioButton-umbrella.h"; sourceTree = "<group>"; };
-		627091DD721B0A10645FD83448DE3DD0 /* CosmosView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosView.swift; path = Cosmos/CosmosView.swift; sourceTree = "<group>"; };
-		6F3FB257EDA86822FFB38E2A989988D6 /* DLRadioButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DLRadioButton.release.xcconfig; sourceTree = "<group>"; };
+		43453B47D4871E74DA2AACE11485067A /* DLRadioButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DLRadioButton.m; path = DLRadioButton/DLRadioButton.m; sourceTree = "<group>"; };
+		47524C2FC9261262DB0CA8E3E8404433 /* CosmosTouchTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosTouchTarget.swift; path = Cosmos/Helpers/CosmosTouchTarget.swift; sourceTree = "<group>"; };
+		553EAA81ABCFA11F3A8435B1D04641C9 /* ArcView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ArcView.swift; path = source/Progress/Elements/ArcView.swift; sourceTree = "<group>"; };
+		554719D1B6052A3158A667B410CE972F /* GradientCircularProgress.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GradientCircularProgress.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5621874F5BA5565C9C2B44C2235C8A1E /* Style.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Style.swift; path = source/Styles/Style.swift; sourceTree = "<group>"; };
+		57BEB69D5DD950A8E2A55BE834308183 /* GradientCircularProgress.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GradientCircularProgress.modulemap; sourceTree = "<group>"; };
+		5A45101CE3AAD3CF076008118C98F1AA /* GradientCircularProgress-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GradientCircularProgress-prefix.pch"; sourceTree = "<group>"; };
+		5A69C43F9F7F6B85E3D768E9142C346A /* GradientCircularProgress.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GradientCircularProgress.swift; path = source/GradientCircularProgress.swift; sourceTree = "<group>"; };
+		5B1A57D6F497DF2B24CC9B37C0B67C27 /* DLRadioButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DLRadioButton-Info.plist"; sourceTree = "<group>"; };
+		5E6AADF75FD986533A036138398211AA /* GradientCircularProgress-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GradientCircularProgress-Info.plist"; sourceTree = "<group>"; };
+		60C6900BC7CA0229EFBA9C8478721AE5 /* CosmosLayerHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosLayerHelper.swift; path = Cosmos/CosmosLayerHelper.swift; sourceTree = "<group>"; };
+		659284651B04AB68E87ECB7D9C503783 /* Cosmos-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Cosmos-dummy.m"; sourceTree = "<group>"; };
+		701690BEB51FEC3E93BEAC06AD4DBCD7 /* Cosmos-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Cosmos-Info.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7364FBA9E7509A4780127E83BFBE9FB7 /* Cosmos-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cosmos-umbrella.h"; sourceTree = "<group>"; };
-		79658F4A016C5F649EB37FEE34D5C607 /* DLRadioButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DLRadioButton.debug.xcconfig; sourceTree = "<group>"; };
-		79A61FF8F3EF5B3788C59909A05AC9EE /* DLRadioButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DLRadioButton.m; path = DLRadioButton/DLRadioButton.m; sourceTree = "<group>"; };
-		8C18B173CF0FEBEDEDAD4C520F1E8C48 /* Cosmos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Cosmos.release.xcconfig; sourceTree = "<group>"; };
-		8E1C119207D654FF176BD2966C4BC037 /* RightToLeft.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RightToLeft.swift; path = Cosmos/Helpers/RightToLeft.swift; sourceTree = "<group>"; };
-		916CE8CDCF8BC863059444F6E8D35EAB /* Cosmos-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Cosmos-dummy.m"; sourceTree = "<group>"; };
-		9756D2EC94C112B73A74017ABE9C01FC /* CosmosTouchTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosTouchTarget.swift; path = Cosmos/Helpers/CosmosTouchTarget.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A300F6B40F8E4723F3858278623B0184 /* CosmosLayerHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosLayerHelper.swift; path = Cosmos/CosmosLayerHelper.swift; sourceTree = "<group>"; };
-		A518252131D291D7A81470589E4F297F /* CosmosDefaultSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosDefaultSettings.swift; path = Cosmos/CosmosDefaultSettings.swift; sourceTree = "<group>"; };
-		AFF3F3931480DDDC78B157BFF6F07C35 /* DLRadioButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DLRadioButton-Info.plist"; sourceTree = "<group>"; };
-		B3076553EE8ADC8F49F337EF87340E28 /* CosmosSize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosSize.swift; path = Cosmos/CosmosSize.swift; sourceTree = "<group>"; };
-		B768194004FD48A82A845D577C7A7C46 /* CosmosRating.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosRating.swift; path = Cosmos/CosmosRating.swift; sourceTree = "<group>"; };
+		779E5E9E26D8E7A1BCDE1A100D1DACAF /* RightToLeft.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RightToLeft.swift; path = Cosmos/Helpers/RightToLeft.swift; sourceTree = "<group>"; };
+		7A8393C22FEB9DCAF6E30D78B0D31FB2 /* Cosmos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Cosmos.release.xcconfig; sourceTree = "<group>"; };
+		7DBA81450F8C5705C630A8EF56AD9F39 /* CosmosRating.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosRating.swift; path = Cosmos/CosmosRating.swift; sourceTree = "<group>"; };
+		8021B844A4F3646FDA346220C8F7343E /* DLRadioButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DLRadioButton-prefix.pch"; sourceTree = "<group>"; };
+		82B2D7FE98A7C53135BC76E3CC348D14 /* GradientCircularProgress.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GradientCircularProgress.release.xcconfig; sourceTree = "<group>"; };
+		82C9B169225A6187D5FDD3D54C3B1B07 /* ProgressView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProgressView.swift; path = source/Progress/ProgressView.swift; sourceTree = "<group>"; };
+		8467F3DC4C0FAB398D60E1EC3A3DC403 /* Background.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Background.swift; path = source/Progress/Elements/Background.swift; sourceTree = "<group>"; };
+		8F0173580C6A735ECE303D15CAEA8A57 /* CosmosAccessibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosAccessibility.swift; path = Cosmos/CosmosAccessibility.swift; sourceTree = "<group>"; };
+		8F185E89759C9771051B653D5CC16317 /* DLRadioButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DLRadioButton.modulemap; sourceTree = "<group>"; };
+		900A3E20C9ECA6127F1BE00055428765 /* BlueIndicatorStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlueIndicatorStyle.swift; path = source/Styles/BlueIndicatorStyle.swift; sourceTree = "<group>"; };
+		9598142E57CFEF3F8000322C12DD05A1 /* CircularProgressView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircularProgressView.swift; path = source/Progress/Core/CircularProgressView.swift; sourceTree = "<group>"; };
+		95C19C6AC6D4343EF1031113F9E52D0F /* GreenLightStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GreenLightStyle.swift; path = source/Styles/GreenLightStyle.swift; sourceTree = "<group>"; };
+		96FC9B1AEDA8B655ECFC728EF23193AF /* WindowBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WindowBuilder.swift; path = source/Progress/Elements/WindowBuilder.swift; sourceTree = "<group>"; };
+		9823557BFF3B4093C83E4A30F00B8A34 /* ColorUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorUtil.swift; path = source/Utils/ColorUtil.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AB58C408A405AEF44AF92CA0FF36F68A /* Cosmos-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cosmos-umbrella.h"; sourceTree = "<group>"; };
+		AF2C864292503A171A532A1709669A80 /* CosmosView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosView.swift; path = Cosmos/CosmosView.swift; sourceTree = "<group>"; };
+		B2CADBE98F2AD8009D90770619D30F36 /* CosmosTouch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosTouch.swift; path = Cosmos/CosmosTouch.swift; sourceTree = "<group>"; };
+		B4C582650467F34E098930524C982C30 /* ProgressAtRatioView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProgressAtRatioView.swift; path = source/Progress/Core/ProgressAtRatioView.swift; sourceTree = "<group>"; };
 		BADC34E655FD0D999560CB86F4DB10DE /* Pods-Sparxkle Dev-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Sparxkle Dev-frameworks.sh"; sourceTree = "<group>"; };
+		C045AA495F13603655E0134DE5107B72 /* StarLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StarLayer.swift; path = Cosmos/StarLayer.swift; sourceTree = "<group>"; };
+		C0466DBD38C05EE35351AF2CBBE53E20 /* DLRadioButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DLRadioButton-dummy.m"; sourceTree = "<group>"; };
+		C398EEC9024D73A086F22E8765DF1B31 /* ProgressViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProgressViewController.swift; path = source/Progress/ProgressViewController.swift; sourceTree = "<group>"; };
+		CADCFF3A3B9C732D47C84FAF874035B0 /* DLRadioButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DLRadioButton.h; path = DLRadioButton/DLRadioButton.h; sourceTree = "<group>"; };
+		CB24D5AC37CE6218BE4BEEC8AEF7D4E2 /* CosmosSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosSettings.swift; path = Cosmos/CosmosSettings.swift; sourceTree = "<group>"; };
 		CD10A6EFD193AF03EE662521B7812927 /* Pods-Sparxkle Dev-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Sparxkle Dev-Info.plist"; sourceTree = "<group>"; };
 		CE7CA60DC439F622612F05F066196175 /* Pods-Sparxkle Dev */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Sparxkle Dev"; path = Pods_Sparxkle_Dev.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D208912400244871F920889AB2428082 /* DLRadioButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DLRadioButton-dummy.m"; sourceTree = "<group>"; };
-		D78BC14681010DADD112769010EADA5D /* CosmosTouch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosTouch.swift; path = Cosmos/CosmosTouch.swift; sourceTree = "<group>"; };
-		DD62301D8876CF73DF3DF4D0345D9BF2 /* Cosmos-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Cosmos-Info.plist"; sourceTree = "<group>"; };
-		EAB893CE7451C10335DFC47C2D51A707 /* DLRadioButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DLRadioButton.h; path = DLRadioButton/DLRadioButton.h; sourceTree = "<group>"; };
-		F0F6B3CD14F0D3A7F5AD4295075F8E4F /* Cosmos-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cosmos-prefix.pch"; sourceTree = "<group>"; };
+		CF75CB03D25DEB36855ADADF10DE46FA /* StarFillMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StarFillMode.swift; path = Cosmos/StarFillMode.swift; sourceTree = "<group>"; };
+		D654E7175E18F8A8CE500FE6069320FB /* Cosmos.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Cosmos.modulemap; sourceTree = "<group>"; };
+		DB2BBF105BC1B2DAB88F92CAC31D14CD /* Property.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Property.swift; path = source/Progress/Property.swift; sourceTree = "<group>"; };
+		E6FEDCE6671936E3FEBF2D526224434F /* GradientCircularProgress-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GradientCircularProgress-dummy.m"; sourceTree = "<group>"; };
+		EACD12A8326201E6A5AAD64FC4CF2EA2 /* BlueDarkStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlueDarkStyle.swift; path = source/Styles/BlueDarkStyle.swift; sourceTree = "<group>"; };
+		EE2A56AF8CCA98326A2B3E972AADD008 /* GradientCircularProgress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GradientCircularProgress.h; path = source/GradientCircularProgress.h; sourceTree = "<group>"; };
+		EEFCDC7AD374FE272BB51F7BE661A298 /* GradientCircularProgress-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GradientCircularProgress-umbrella.h"; sourceTree = "<group>"; };
 		F12E8A2082E9598886B53B25364489BB /* Pods-Sparxkle Dev-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Sparxkle Dev-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F71ABCB3431D49393E256EFC73F7C079 /* DLRadioButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DLRadioButton.modulemap; sourceTree = "<group>"; };
-		F7538D3606A8E8C7DA1D8A33BCBADCEE /* CosmosLayers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosLayers.swift; path = Cosmos/CosmosLayers.swift; sourceTree = "<group>"; };
-		F8223324B3C9C4C1C3F58DFABDC3FBEA /* CosmosAccessibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosAccessibility.swift; path = Cosmos/CosmosAccessibility.swift; sourceTree = "<group>"; };
+		F881CA8C1AE59C0FABE03447E533D408 /* CosmosLocalizedRating.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosLocalizedRating.swift; path = Cosmos/CosmosLocalizedRating.swift; sourceTree = "<group>"; };
 		FA9946C98879AAD95EA396891236655A /* Pods-Sparxkle Dev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sparxkle Dev.release.xcconfig"; sourceTree = "<group>"; };
+		FDD57C752FE67262619D97A8F94066A9 /* DLRadioButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DLRadioButton.release.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1C03EB076DA987E9D0945D7BD26051A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B73696AB199FEBA5F3D206D7C675569 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47C2A80C50FDDC08F3329462794B762B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B152CC8B3E2DA652BD8D1455FB56643 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6DEC9D66D25D7967B167DEA713C2359C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				209D9DD6A82F26B8032A43B060B5D164 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9A14B7AC56A883DFFC31DFD39C3EBC0A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BF7F8D8B1ED9D754F8221A0FC523A612 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,30 +190,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0BEEF7BB05EC5A930961717E820F5448 /* Cosmos */ = {
-			isa = PBXGroup;
-			children = (
-				F8223324B3C9C4C1C3F58DFABDC3FBEA /* CosmosAccessibility.swift */,
-				A518252131D291D7A81470589E4F297F /* CosmosDefaultSettings.swift */,
-				A300F6B40F8E4723F3858278623B0184 /* CosmosLayerHelper.swift */,
-				F7538D3606A8E8C7DA1D8A33BCBADCEE /* CosmosLayers.swift */,
-				2B111B7115E50B47355E0B09EC38A2CC /* CosmosLocalizedRating.swift */,
-				B768194004FD48A82A845D577C7A7C46 /* CosmosRating.swift */,
-				2113A278F6482F53441A1D0A7B69352E /* CosmosSettings.swift */,
-				B3076553EE8ADC8F49F337EF87340E28 /* CosmosSize.swift */,
-				4C26AA1B0977D8F9A5F1DFA3CB6A2B12 /* CosmosText.swift */,
-				D78BC14681010DADD112769010EADA5D /* CosmosTouch.swift */,
-				9756D2EC94C112B73A74017ABE9C01FC /* CosmosTouchTarget.swift */,
-				627091DD721B0A10645FD83448DE3DD0 /* CosmosView.swift */,
-				8E1C119207D654FF176BD2966C4BC037 /* RightToLeft.swift */,
-				1587245B44219D4C71AC47B036EBC543 /* StarFillMode.swift */,
-				09B3E0452C4407CE1D8B8A0D0FC31AD0 /* StarLayer.swift */,
-				FB962E2FDB7862D3A5964498631720D1 /* Support Files */,
-			);
-			name = Cosmos;
-			path = Cosmos;
-			sourceTree = "<group>";
-		};
 		121567B5BDB99573D7EE306610C750CD /* Pods-Sparxkle Dev */ = {
 			isa = PBXGroup;
 			children = (
@@ -169,23 +207,94 @@
 			path = "Target Support Files/Pods-Sparxkle Dev";
 			sourceTree = "<group>";
 		};
-		25A52F1B284481164A053AB83620A7DD /* Pods */ = {
+		14DC831BBDDE2370B0385194DAFB44C0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0BEEF7BB05EC5A930961717E820F5448 /* Cosmos */,
-				EA0D80D7C69D8081ED1357D9727B138D /* DLRadioButton */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		554A9B5136600F5DC6C6379EFFD9D331 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				05C4280976BF93DA8B36818DE2E2A5E0 /* Cosmos */,
-				3E26BA03994713FBEB9C3406695782F1 /* DLRadioButton */,
+				05C4280976BF93DA8B36818DE2E2A5E0 /* Cosmos.framework */,
+				3E26BA03994713FBEB9C3406695782F1 /* DLRadioButton.framework */,
+				554719D1B6052A3158A667B410CE972F /* GradientCircularProgress.framework */,
 				CE7CA60DC439F622612F05F066196175 /* Pods-Sparxkle Dev */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		17577BCE124654183B75718D8F3C76B9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F185E89759C9771051B653D5CC16317 /* DLRadioButton.modulemap */,
+				C0466DBD38C05EE35351AF2CBBE53E20 /* DLRadioButton-dummy.m */,
+				5B1A57D6F497DF2B24CC9B37C0B67C27 /* DLRadioButton-Info.plist */,
+				8021B844A4F3646FDA346220C8F7343E /* DLRadioButton-prefix.pch */,
+				13B93CD486511FBC562C7F028EF0472F /* DLRadioButton-umbrella.h */,
+				2409904AB433117FD05C89489048CE84 /* DLRadioButton.debug.xcconfig */,
+				FDD57C752FE67262619D97A8F94066A9 /* DLRadioButton.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DLRadioButton";
+			sourceTree = "<group>";
+		};
+		39CC69E659C194393AB6348187E341A3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				57BEB69D5DD950A8E2A55BE834308183 /* GradientCircularProgress.modulemap */,
+				E6FEDCE6671936E3FEBF2D526224434F /* GradientCircularProgress-dummy.m */,
+				5E6AADF75FD986533A036138398211AA /* GradientCircularProgress-Info.plist */,
+				5A45101CE3AAD3CF076008118C98F1AA /* GradientCircularProgress-prefix.pch */,
+				EEFCDC7AD374FE272BB51F7BE661A298 /* GradientCircularProgress-umbrella.h */,
+				17DCB98865F92657F04FFB784CB2745B /* GradientCircularProgress.debug.xcconfig */,
+				82B2D7FE98A7C53135BC76E3CC348D14 /* GradientCircularProgress.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GradientCircularProgress";
+			sourceTree = "<group>";
+		};
+		3B15602F5E9FD24948E9C0AE43FCD446 /* Cosmos */ = {
+			isa = PBXGroup;
+			children = (
+				8F0173580C6A735ECE303D15CAEA8A57 /* CosmosAccessibility.swift */,
+				276C38430106C1F8C43AC14815F561AA /* CosmosDefaultSettings.swift */,
+				60C6900BC7CA0229EFBA9C8478721AE5 /* CosmosLayerHelper.swift */,
+				2E313A6E661444D2A24282F3C5F62B0D /* CosmosLayers.swift */,
+				F881CA8C1AE59C0FABE03447E533D408 /* CosmosLocalizedRating.swift */,
+				7DBA81450F8C5705C630A8EF56AD9F39 /* CosmosRating.swift */,
+				CB24D5AC37CE6218BE4BEEC8AEF7D4E2 /* CosmosSettings.swift */,
+				338D8B8DC1B110FC6DAC755381C54244 /* CosmosSize.swift */,
+				01732F4053728659F695BAE314C4235F /* CosmosText.swift */,
+				B2CADBE98F2AD8009D90770619D30F36 /* CosmosTouch.swift */,
+				47524C2FC9261262DB0CA8E3E8404433 /* CosmosTouchTarget.swift */,
+				AF2C864292503A171A532A1709669A80 /* CosmosView.swift */,
+				779E5E9E26D8E7A1BCDE1A100D1DACAF /* RightToLeft.swift */,
+				CF75CB03D25DEB36855ADADF10DE46FA /* StarFillMode.swift */,
+				C045AA495F13603655E0134DE5107B72 /* StarLayer.swift */,
+				D8920D91870A9707AB7E71D51598ED01 /* Support Files */,
+			);
+			path = Cosmos;
+			sourceTree = "<group>";
+		};
+		5215844DC59A6770448CF9CEE17BD924 /* GradientCircularProgress */ = {
+			isa = PBXGroup;
+			children = (
+				553EAA81ABCFA11F3A8435B1D04641C9 /* ArcView.swift */,
+				8467F3DC4C0FAB398D60E1EC3A3DC403 /* Background.swift */,
+				EACD12A8326201E6A5AAD64FC4CF2EA2 /* BlueDarkStyle.swift */,
+				900A3E20C9ECA6127F1BE00055428765 /* BlueIndicatorStyle.swift */,
+				9598142E57CFEF3F8000322C12DD05A1 /* CircularProgressView.swift */,
+				9823557BFF3B4093C83E4A30F00B8A34 /* ColorUtil.swift */,
+				06F55F28BA9EFFA8DCC02C37EA4891EF /* GradientArcView.swift */,
+				2CA6480E415E1C04789EE807FA9C02EC /* GradientArcWithClearColorView.swift */,
+				EE2A56AF8CCA98326A2B3E972AADD008 /* GradientCircularProgress.h */,
+				5A69C43F9F7F6B85E3D768E9142C346A /* GradientCircularProgress.swift */,
+				95C19C6AC6D4343EF1031113F9E52D0F /* GreenLightStyle.swift */,
+				090E9E27C12D037F15854483E8F763E1 /* OrangeClearStyle.swift */,
+				B4C582650467F34E098930524C982C30 /* ProgressAtRatioView.swift */,
+				82C9B169225A6187D5FDD3D54C3B1B07 /* ProgressView.swift */,
+				C398EEC9024D73A086F22E8765DF1B31 /* ProgressViewController.swift */,
+				DB2BBF105BC1B2DAB88F92CAC31D14CD /* Property.swift */,
+				5621874F5BA5565C9C2B44C2235C8A1E /* Style.swift */,
+				96FC9B1AEDA8B655ECFC728EF23193AF /* WindowBuilder.swift */,
+				39CC69E659C194393AB6348187E341A3 /* Support Files */,
+			);
+			path = GradientCircularProgress;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -194,6 +303,26 @@
 				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		880CF0255D665FEABE8727B91366D28C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B15602F5E9FD24948E9C0AE43FCD446 /* Cosmos */,
+				9BB9B0F0E37FCFBAD36C0BED914CD6F1 /* DLRadioButton */,
+				5215844DC59A6770448CF9CEE17BD924 /* GradientCircularProgress */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9BB9B0F0E37FCFBAD36C0BED914CD6F1 /* DLRadioButton */ = {
+			isa = PBXGroup;
+			children = (
+				CADCFF3A3B9C732D47C84FAF874035B0 /* DLRadioButton.h */,
+				43453B47D4871E74DA2AACE11485067A /* DLRadioButton.m */,
+				17577BCE124654183B75718D8F3C76B9 /* Support Files */,
+			);
+			path = DLRadioButton;
 			sourceTree = "<group>";
 		};
 		B641534941688266BAFB881BD375DE66 /* Targets Support Files */ = {
@@ -209,25 +338,10 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				25A52F1B284481164A053AB83620A7DD /* Pods */,
-				554A9B5136600F5DC6C6379EFFD9D331 /* Products */,
+				880CF0255D665FEABE8727B91366D28C /* Pods */,
+				14DC831BBDDE2370B0385194DAFB44C0 /* Products */,
 				B641534941688266BAFB881BD375DE66 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		CF94189E954CE10534AE3262CCBB6DCD /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F71ABCB3431D49393E256EFC73F7C079 /* DLRadioButton.modulemap */,
-				D208912400244871F920889AB2428082 /* DLRadioButton-dummy.m */,
-				AFF3F3931480DDDC78B157BFF6F07C35 /* DLRadioButton-Info.plist */,
-				4EA25FBDDAA3FD8BA1508ECC1923DD87 /* DLRadioButton-prefix.pch */,
-				58B00F43CD6CDB7367DB61D00E60B61A /* DLRadioButton-umbrella.h */,
-				79658F4A016C5F649EB37FEE34D5C607 /* DLRadioButton.debug.xcconfig */,
-				6F3FB257EDA86822FFB38E2A989988D6 /* DLRadioButton.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/DLRadioButton";
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -238,27 +352,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EA0D80D7C69D8081ED1357D9727B138D /* DLRadioButton */ = {
+		D8920D91870A9707AB7E71D51598ED01 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				EAB893CE7451C10335DFC47C2D51A707 /* DLRadioButton.h */,
-				79A61FF8F3EF5B3788C59909A05AC9EE /* DLRadioButton.m */,
-				CF94189E954CE10534AE3262CCBB6DCD /* Support Files */,
-			);
-			name = DLRadioButton;
-			path = DLRadioButton;
-			sourceTree = "<group>";
-		};
-		FB962E2FDB7862D3A5964498631720D1 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				020C7B7AD96E0D156931D50E6C46E162 /* Cosmos.modulemap */,
-				916CE8CDCF8BC863059444F6E8D35EAB /* Cosmos-dummy.m */,
-				DD62301D8876CF73DF3DF4D0345D9BF2 /* Cosmos-Info.plist */,
-				F0F6B3CD14F0D3A7F5AD4295075F8E4F /* Cosmos-prefix.pch */,
-				7364FBA9E7509A4780127E83BFBE9FB7 /* Cosmos-umbrella.h */,
-				3F35A4B0AB5DA0D462930050470B35DB /* Cosmos.debug.xcconfig */,
-				8C18B173CF0FEBEDEDAD4C520F1E8C48 /* Cosmos.release.xcconfig */,
+				D654E7175E18F8A8CE500FE6069320FB /* Cosmos.modulemap */,
+				659284651B04AB68E87ECB7D9C503783 /* Cosmos-dummy.m */,
+				701690BEB51FEC3E93BEAC06AD4DBCD7 /* Cosmos-Info.plist */,
+				33DA3FBD6B58DF4C25C31130F47E5D62 /* Cosmos-prefix.pch */,
+				AB58C408A405AEF44AF92CA0FF36F68A /* Cosmos-umbrella.h */,
+				3FD952546DDA75B0047B1399D4B5EC7C /* Cosmos.debug.xcconfig */,
+				7A8393C22FEB9DCAF6E30D78B0D31FB2 /* Cosmos.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Cosmos";
@@ -267,6 +370,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		00BBEE9D122F851BACBAB1E157FBB1ED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE94CCCB370944E323F6DF2B42225EEB /* Pods-Sparxkle Dev-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3DD921E0111869872AE7B86316889FB3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -284,11 +395,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F29F51A595E68785B75F8609B276F31E /* Headers */ = {
+		DAF746C7B2FEDAA51B90F5B15679EE34 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02B3BFE6001FCEA77907CF2783F4E92F /* Pods-Sparxkle Dev-umbrella.h in Headers */,
+				6F9CD0EB474CB886F990C23E48F777A2 /* GradientCircularProgress.h in Headers */,
+				89C247F60E83565F7F5FA75DCC64E8A2 /* GradientCircularProgress-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,23 +422,42 @@
 			);
 			name = Cosmos;
 			productName = Cosmos;
-			productReference = 05C4280976BF93DA8B36818DE2E2A5E0 /* Cosmos */;
+			productReference = 05C4280976BF93DA8B36818DE2E2A5E0 /* Cosmos.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		3BCFCA268B88BFAC107A85BFBC2856F9 /* Pods-Sparxkle Dev */ = {
+		1E22002AAC42C1574F92E75D3B37DD24 /* GradientCircularProgress */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2326118AC9D15D9AE5868BA8EA91EE9C /* Build configuration list for PBXNativeTarget "Pods-Sparxkle Dev" */;
+			buildConfigurationList = DCC70AE6DF5586E895585806B5073E47 /* Build configuration list for PBXNativeTarget "GradientCircularProgress" */;
 			buildPhases = (
-				F29F51A595E68785B75F8609B276F31E /* Headers */,
-				F20EA4149211F6E5AE1E65D053E2BAD7 /* Sources */,
-				9A14B7AC56A883DFFC31DFD39C3EBC0A /* Frameworks */,
-				D0E387EDBACC71B8E75EB3A6E4038688 /* Resources */,
+				DAF746C7B2FEDAA51B90F5B15679EE34 /* Headers */,
+				AF44006EDDB624C4315E775CD4B3826F /* Sources */,
+				47C2A80C50FDDC08F3329462794B762B /* Frameworks */,
+				4FEAF6FBF74F5AA134A75834D06EE92F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				079DF412F29ECBFC97FB088A750E7BDC /* PBXTargetDependency */,
-				63C90FA1F49AA0068A659BBE40A4BABC /* PBXTargetDependency */,
+			);
+			name = GradientCircularProgress;
+			productName = GradientCircularProgress;
+			productReference = 554719D1B6052A3158A667B410CE972F /* GradientCircularProgress.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3BCFCA268B88BFAC107A85BFBC2856F9 /* Pods-Sparxkle Dev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E28A2455D20A4E4BC33E2886DC5EAB37 /* Build configuration list for PBXNativeTarget "Pods-Sparxkle Dev" */;
+			buildPhases = (
+				00BBEE9D122F851BACBAB1E157FBB1ED /* Headers */,
+				2FAFF8CCF5A39BF413D24E5296A1D570 /* Sources */,
+				1C03EB076DA987E9D0945D7BD26051A8 /* Frameworks */,
+				7D8F555C5F56288FF9DCE4B8398F063B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F92CF62FDEC43A7F4C77A303B0540D7 /* PBXTargetDependency */,
+				E5D7D3542A6597A11307F67FA8AB26E6 /* PBXTargetDependency */,
+				91907282A194C61C96A0EA62FF33734B /* PBXTargetDependency */,
 			);
 			name = "Pods-Sparxkle Dev";
 			productName = Pods_Sparxkle_Dev;
@@ -348,7 +479,7 @@
 			);
 			name = DLRadioButton;
 			productName = DLRadioButton;
-			productReference = 3E26BA03994713FBEB9C3406695782F1 /* DLRadioButton */;
+			productReference = 3E26BA03994713FBEB9C3406695782F1 /* DLRadioButton.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -358,7 +489,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastUpgradeCheck = 1310;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 13.0";
@@ -369,26 +500,34 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 554A9B5136600F5DC6C6379EFFD9D331 /* Products */;
+			productRefGroup = 14DC831BBDDE2370B0385194DAFB44C0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				00F31BD5217A20974B5E9AAC6256D98E /* Cosmos */,
 				BED8F38B6D4A3AD6DFF85D18F9F09435 /* DLRadioButton */,
+				1E22002AAC42C1574F92E75D3B37DD24 /* GradientCircularProgress */,
 				3BCFCA268B88BFAC107A85BFBC2856F9 /* Pods-Sparxkle Dev */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C77B64B25EBB18C8D211C061D92B0B4F /* Resources */ = {
+		4FEAF6FBF74F5AA134A75834D06EE92F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D0E387EDBACC71B8E75EB3A6E4038688 /* Resources */ = {
+		7D8F555C5F56288FF9DCE4B8398F063B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C77B64B25EBB18C8D211C061D92B0B4F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -405,6 +544,39 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2FAFF8CCF5A39BF413D24E5296A1D570 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58364F1DDA5C1E7232BA52D0CD059F16 /* Pods-Sparxkle Dev-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF44006EDDB624C4315E775CD4B3826F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A304363A0C51A867D7CCDA8755D26C8 /* ArcView.swift in Sources */,
+				F79146C9737A392D44FCC7C12FDD0AF1 /* Background.swift in Sources */,
+				D225FA9B7ED55298826CCEBF6FCF39D3 /* BlueDarkStyle.swift in Sources */,
+				BDDEBA8CD3EAE7906E1CC3F7B8863F72 /* BlueIndicatorStyle.swift in Sources */,
+				3B46913E94D7EB076632F3D77CD208DC /* CircularProgressView.swift in Sources */,
+				1E3CCD8ED7AA1DD230A512B69366BDD9 /* ColorUtil.swift in Sources */,
+				3EA3F4E87D1AED0CDEDE8F5B70E254A6 /* GradientArcView.swift in Sources */,
+				1EF459A4657DF666DEB46B773A56129C /* GradientArcWithClearColorView.swift in Sources */,
+				71F7A055D4E0E948DCFFCBAA639B0BC0 /* GradientCircularProgress.swift in Sources */,
+				2E3D67EF4390C90419AF9F14190532B0 /* GradientCircularProgress-dummy.m in Sources */,
+				BBC9B7F139164A6A32851DF5EB164C69 /* GreenLightStyle.swift in Sources */,
+				89A17E274E9DBAEB446BDF83F75ADF80 /* OrangeClearStyle.swift in Sources */,
+				CCB2748298A52B149A1F06F4200C4EB8 /* ProgressAtRatioView.swift in Sources */,
+				313734138B38FE724E916F77536988B2 /* ProgressView.swift in Sources */,
+				01BA716616A999B1E52DFB6D575C8C73 /* ProgressViewController.swift in Sources */,
+				5D3C6F08D62AD9AAF171BBFED8CCB786 /* Property.swift in Sources */,
+				741583F8FE2F5ACB0E2A8723BB57FEFC /* Style.swift in Sources */,
+				1D2235175D2A975A3C77EEB7D53E7B22 /* WindowBuilder.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B1B8AB666CBBC24142B5B2D2C578F7E6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -437,72 +609,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F20EA4149211F6E5AE1E65D053E2BAD7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0D9E56AC9F52A1669E27306A416410BE /* Pods-Sparxkle Dev-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		079DF412F29ECBFC97FB088A750E7BDC /* PBXTargetDependency */ = {
+		3F92CF62FDEC43A7F4C77A303B0540D7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Cosmos;
 			target = 00F31BD5217A20974B5E9AAC6256D98E /* Cosmos */;
-			targetProxy = 14185FB9C7248091C72C4DB478B50997 /* PBXContainerItemProxy */;
+			targetProxy = 8DB685379AEDFDABB8924273C3B1CC17 /* PBXContainerItemProxy */;
 		};
-		63C90FA1F49AA0068A659BBE40A4BABC /* PBXTargetDependency */ = {
+		91907282A194C61C96A0EA62FF33734B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GradientCircularProgress;
+			target = 1E22002AAC42C1574F92E75D3B37DD24 /* GradientCircularProgress */;
+			targetProxy = 6D3C4A537615B9E945D132F5971AF3AB /* PBXContainerItemProxy */;
+		};
+		E5D7D3542A6597A11307F67FA8AB26E6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DLRadioButton;
 			target = BED8F38B6D4A3AD6DFF85D18F9F09435 /* DLRadioButton */;
-			targetProxy = 2A103FC7E1B540979CD9F5BA85222338 /* PBXContainerItemProxy */;
+			targetProxy = 4A4997C58E1D087011B843AB74FABFD2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0CEC11A60595A55B9A21CD099EE961EC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3129827188C8A4BB98793025D1F8FF37 /* Pods-Sparxkle Dev.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Sparxkle Dev/Pods-Sparxkle Dev-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Sparxkle Dev/Pods-Sparxkle Dev.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		1AB09BC073DF050B1120B82E288A2BC9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6F3FB257EDA86822FFB38E2A989988D6 /* DLRadioButton.release.xcconfig */;
+			baseConfigurationReference = FDD57C752FE67262619D97A8F94066A9 /* DLRadioButton.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -515,7 +648,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/DLRadioButton/DLRadioButton-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/DLRadioButton/DLRadioButton-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -537,7 +670,7 @@
 		};
 		2DB280362A0C4923E2D4B3BD7317AC8E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 79658F4A016C5F649EB37FEE34D5C607 /* DLRadioButton.debug.xcconfig */;
+			baseConfigurationReference = 2409904AB433117FD05C89489048CE84 /* DLRadioButton.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -550,7 +683,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/DLRadioButton/DLRadioButton-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/DLRadioButton/DLRadioButton-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -569,9 +702,43 @@
 			};
 			name = Debug;
 		};
+		41DC7D59C193023D037DA41089EDB2C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17DCB98865F92657F04FFB784CB2745B /* GradientCircularProgress.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GradientCircularProgress/GradientCircularProgress-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GradientCircularProgress/GradientCircularProgress-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/GradientCircularProgress/GradientCircularProgress.modulemap";
+				PRODUCT_MODULE_NAME = GradientCircularProgress;
+				PRODUCT_NAME = GradientCircularProgress;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		6EC69149E28F5E27C4706FFEAF8B58F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F35A4B0AB5DA0D462930050470B35DB /* Cosmos.debug.xcconfig */;
+			baseConfigurationReference = 3FD952546DDA75B0047B1399D4B5EC7C /* Cosmos.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -584,7 +751,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Cosmos/Cosmos-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Cosmos/Cosmos-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -731,10 +898,12 @@
 			};
 			name = Release;
 		};
-		C78C1BA85703BCE69743B7C85B847990 /* Release */ = {
+		971749940C09EFBB4671158C61DEB0C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8C18B173CF0FEBEDEDAD4C520F1E8C48 /* Cosmos.release.xcconfig */;
+			baseConfigurationReference = 3129827188C8A4BB98793025D1F8FF37 /* Pods-Sparxkle Dev.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -743,30 +912,30 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Cosmos/Cosmos-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Cosmos/Cosmos-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Sparxkle Dev/Pods-Sparxkle Dev-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/Cosmos/Cosmos.modulemap";
-				PRODUCT_MODULE_NAME = Cosmos;
-				PRODUCT_NAME = Cosmos;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Sparxkle Dev/Pods-Sparxkle Dev.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		E482589C004931B75141A67AA75A20B7 /* Release */ = {
+		9AE502F781FBEECE3639E7035F6980B6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FA9946C98879AAD95EA396891236655A /* Pods-Sparxkle Dev.release.xcconfig */;
 			buildSettings = {
@@ -804,18 +973,79 @@
 			};
 			name = Release;
 		};
+		A0E89187654E84F651A7F1E63EDB0857 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82B2D7FE98A7C53135BC76E3CC348D14 /* GradientCircularProgress.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GradientCircularProgress/GradientCircularProgress-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GradientCircularProgress/GradientCircularProgress-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/GradientCircularProgress/GradientCircularProgress.modulemap";
+				PRODUCT_MODULE_NAME = GradientCircularProgress;
+				PRODUCT_NAME = GradientCircularProgress;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C78C1BA85703BCE69743B7C85B847990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A8393C22FEB9DCAF6E30D78B0D31FB2 /* Cosmos.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Cosmos/Cosmos-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Cosmos/Cosmos-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Cosmos/Cosmos.modulemap";
+				PRODUCT_MODULE_NAME = Cosmos;
+				PRODUCT_NAME = Cosmos;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2326118AC9D15D9AE5868BA8EA91EE9C /* Build configuration list for PBXNativeTarget "Pods-Sparxkle Dev" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0CEC11A60595A55B9A21CD099EE961EC /* Debug */,
-				E482589C004931B75141A67AA75A20B7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -839,6 +1069,24 @@
 			buildConfigurations = (
 				6EC69149E28F5E27C4706FFEAF8B58F4 /* Debug */,
 				C78C1BA85703BCE69743B7C85B847990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCC70AE6DF5586E895585806B5073E47 /* Build configuration list for PBXNativeTarget "GradientCircularProgress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41DC7D59C193023D037DA41089EDB2C6 /* Debug */,
+				A0E89187654E84F651A7F1E63EDB0857 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E28A2455D20A4E4BC33E2886DC5EAB37 /* Build configuration list for PBXNativeTarget "Pods-Sparxkle Dev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				971749940C09EFBB4671158C61DEB0C9 /* Debug */,
+				9AE502F781FBEECE3639E7035F6980B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
