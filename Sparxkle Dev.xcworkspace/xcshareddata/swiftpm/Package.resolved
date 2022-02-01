@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "CircularProgressView",
+        "repositoryURL": "https://github.com/bdolewski/CircularProgressView.git",
+        "state": {
+          "branch": null,
+          "revision": "480b9400a5f4398c7e70b0eadc3d219b6abd2dd1",
+          "version": "1.0.2"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
